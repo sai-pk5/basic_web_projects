@@ -190,7 +190,7 @@ span{
     }
     #main-box{
         max-width: 500px;
-        max-height: 400vh;
+        max-height: 500vh;
         display:flex;
         flex-direction: column;
         border:2px solid black;
