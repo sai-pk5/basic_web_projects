@@ -1,0 +1,226 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    box-sizing: border-box;
+}
+
+ 
+#main-box{
+   margin: auto;
+    min-height: 140vh;
+    max-width: 1000px;
+    display: flex;
+    border:2px solid black;
+    box-shadow: 3px 3px 10px black;
+  
+    
+}
+.left-column{
+    width:40%;
+    background: blanchedalmond;
+    height: 150vh;
+    
+}
+.right-column{
+    width: 60%;
+    height: 150vh;
+    background:rgba(191, 245, 174, 0.781);
+}
+body{
+    background-color:rgb(255, 255, 255);
+    height: 200vh;
+}
+
+h1{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px rgb(238, 17, 17);
+    
+}
+
+
+.left-column img{
+    margin: 40px 80px;
+    width: 200px;
+    height: 200px;
+    border:5px solid rgba(17, 17, 17,0.8);
+    box-shadow: 2px 2px 10px rgb(71, 70, 70);
+    border-radius: 180px;
+}
+#main-box h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 6px;
+}
+h5{
+    margin-top: 10px;
+    text-align:center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+ h4{
+     
+   
+     margin-right: 20px;
+   text-align-last: right;
+   font-size: 30px;
+   font-family: monospace;
+   
+}
+#iconss{
+    display: flex;
+
+}
+#icon{
+    margin-top: -5%;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 4px;
+    border: 3px solid black;
+    border-radius: 20px;
+    position: relative;;
+}
+.line{
+    margin-left: 37px;
+    margin-top: 2px;
+    width: 350px;
+    height: 4px;
+    content: "";
+    background: black;
+    position: absolute;
+    border-top-right-radius: 5px ;
+
+}
+.line1{
+   margin-left: 38px;
+   margin-top: -12px;
+    width: 550px;
+    height: 4px;
+    content: "";
+    background: black;
+    position: absolute;
+    border-top-right-radius: 5px ;
+
+}
+.tele{
+    margin-top: 15px;
+    
+}
+ul{
+    margin-left: 50px;
+    list-style:square;
+    margin-bottom: 10px;
+}
+
+#icon1{
+    margin-top: 5%;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 4px;
+   
+    border-radius: 20px;
+    position: relative;;
+}
+span{
+    font-size: 23px;
+}
+
+
+#ed h4{
+    margin-top: 18px;
+}
+#ed ul{
+    margin-top: 20px;
+}
+#ed li{
+    margin-left:40px;
+    font-size:23px;
+    margin-bottom: 18px;
+}
+.container {
+    margin-top: -18px;
+    margin-left: 150px;
+    width: 60%; /* Full width */
+    border-radius: 5px;
+    background-color: rgb(228, 213, 213); /* Grey background */
+    line-height: 10px;
+    border: 3px solid black;
+  }
+  p{
+      font-size: 20px;
+      font-weight: bold;
+      font-family: serif;
+      margin-top: 20px;
+  }
+  .skills {
+    margin-left: 80px;
+    text-align: left; 
+    color: rgb(14, 13, 13); 
+    margin-bottom: 30px;
+  }
+  
+  .html {width: 95%; background-color: #4CAF50;} 
+  .css {width: 90%; background-color: #2196F3;} 
+  .git {width: 85%; background-color: #f44336;} 
+  .c {width: 85%; background-color: #f07ca8;} 
+  .js {width: 75%; background-color: #aee59d;} 
+  .py {width: 65%; background-color: #a86ae2;} 
+  .jq {width: 60%; background-color: #e1e430;} 
+
+.pro ul{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+.pro li{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:900px){
+    h1{
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 10px rgb(238, 17, 17);
+        
+    }
+    #main-box{
+        max-width: 500px;
+        max-height: 400vh;
+        display:flex;
+        flex-direction: column;
+        border:2px solid black;
+        box-shadow: 3px 3px 10px black;
+    }
+    .left-column img{
+        margin: 10px 100px;
+        width: 300px;
+        height: 300px;
+        border:2px solid rgba(17, 17, 17,0.8);
+        box-shadow: 2px 2px 10px rgb(71, 70, 70);
+        border-radius: 200px;
+    }
+    .left-column{
+        width: 500px;
+        background-color: cornsilk;
+        height: 155vh;
+    }
+    .right-column{
+        width: 500px;
+        background-color: cornsilk;
+        height: 155vh;
+    }
+    .line{
+        width: 440px;
+    }
+    .line1{
+      
+        width: 440px;
+    }
+ 
+
+}

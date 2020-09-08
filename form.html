@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+         <link rel="stylesheet" href="form.css">
+        <script src="form.js"></script>
+
+        <title>Registration form</title>
+    </head>
+    <body>
+       <div class="regform ">Registration form</div>
+        <div class="main">
+            <form action="l.html">
+                <div id="name">
+                    <h2 class="name"> Name</h2>
+                    <input class="firstname" id='firstname'type="text" placeholder="enter your firstname...">
+                    <label class="firstlabel">firstname</label>
+                    
+                    <input class="lastname" id='lastname'onclick="first()" type="text"placeholder="enter your lastname...">
+                    <label class="lastlabel">lastname</label>
+                </div>
+                <h2 class="name">College</h2>
+                <input class="company"id='college' onclick="sec()" type="text" placeholder="enter college name ...">
+               
+                <h2 class="name">Email</h2>
+                <input class="email" id='email'onclick="third()"type="text" placeholder="enter email...">
+              
+                <h2 class="name">Phone</h2>
+                <select class="code" name="subject">
+                    <option disabled="disabled"selected="selected">Area code</option>
+                    <option>+91-India</option>
+                    <option>+1-USA</option>
+                    <option>+60-Malaysia</option>
+                    <option>+33–France</option>
+                     <option>+86-China</option>
+                     <option>+44–United Kingdom</option>
+                    <option>+61-Australia</option>
+                </select>
+                <input class="number" onclick="fourth()" type="text" placeholder="enter phone number">
+               
+                <h2 class="name">Subject</h2>
+                <select class="option" name="subject">
+                    <option disabled="disabled"selected="selected">--Choose option</option>
+                    <option>Html</option>
+                    <option>CSS</option>
+                    <option>javascript</option>
+                     <option>Jquery</option>
+                    <option>Ajax</option>
+                </select>
+                
+                <h2 id="con">Are you a beginner?</h2>
+                <label class="radio">
+                <input  class="radio-one" type="radio" name="">
+                <span></span>
+                yes
+             </label>
+             <label class="radio">
+                <input  class="radio-two" type="radio"name="">
+                <span></span>
+                no
+             </label>
+             <button id="sub"type="submit">submit</button>
+
+ </form>
+     </div>
+    </body>
+</html>

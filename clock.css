@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    font-size: 4px;
+    text-align: center;
+}
+#clock{
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    background: url(http://www.clipartbest.com/cliparts/nTE/Eq7/nTEEq7Lbc.gif) no-repeat center ;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 50%;
+    border: 20px solid rgb(147, 241, 128);
+    
+}
+.sec{
+    color: rgb(12, 12, 11);
+    height: 210px;
+    width: 3px;
+    background: radial-gradient(rgb(29, 245, 245),rgb(18, 19, 19));
+    border-radius: 10px;
+    position: relative;
+    left: 250px;
+    top: -290px;
+    z-index: 3;
+    transform-origin: bottom;
+    animation: sec_anim  linear infinite;
+
+}
+@keyframes sec_anim{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+@keyframes hr_anim{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+@keyframes min_anim{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+.hr{
+    color: rgb(20, 20, 20);
+    height: 150px;
+    width: 4px;
+    background: radial-gradient(rgb(252, 249, 249),rgb(53, 41, 228));
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    left: 250px;
+    z-index: 1;
+    transform-origin: bottom;
+    animation: hr_anim  linear infinite;
+
+}
+.min{
+    color: rgb(15, 15, 14);
+    height: 180px;
+    width: 5px;
+    background: radial-gradient(rgb(8, 8, 8),rgb(255, 0, 0));
+    border-radius: 10px;
+    position: relative;
+    left: 250px;
+    top: -80px;
+    z-index:2;
+    transform-origin: bottom;
+    animation: min_anim  linear infinite;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
